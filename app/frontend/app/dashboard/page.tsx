@@ -88,6 +88,7 @@ export default function ContributorDashboard() {
       subtitle="Track your earnings and mission delivery in one place."
       actions={
         <div className="flex items-center gap-2">
+          {/* Wallet controls stay visible for quick access. */}
           <WalletAddress />
           <WalletButton />
           <Button
